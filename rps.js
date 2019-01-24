@@ -17,11 +17,12 @@ function computerPlay() {
 
 
 function playRound (e) {
+  
   let resultText = "";
   playerSelection = this.id;
   computerSelection = computerPlay();
-  console.log(e);
-  console.log(this);
+  console.log(e);       //e is the event that called this function.
+  console.log(this);    //this is node that is source of the event. 
   console.log(playerSelection);
   console.log(computerSelection);
 
